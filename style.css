@@ -1,0 +1,59 @@
+body{
+    background-color:rgba(0, 0, 0, 0.904);
+}
+#watch-frame{
+    width: 600px;
+    margin: 100px auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px black;
+    padding: 20px;
+    color:rgba(0, 0, 139, 0.932);
+    background-color:rgba(0, 0, 0, 0.904);
+}
+#time{
+    display: flex;
+    justify-content: center;
+    
+}
+#time span{
+    display: flex;
+}
+#btn-ctrl{
+    display: flex;
+    justify-content: space-between;
+}
+#btn-ctrl button{
+    height: 50px;
+    width: 80px;
+   border-radius: 10%;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 15px;
+}
+button{
+    /* background-color: grey; */
+    color: white;
+}
+#start-btn{
+    background-color: blueviolet;
+}
+#lap-btn{
+    background-color:cornflowerblue;
+    color:wheat;
+}
+#lap-frame{
+    padding: 10px;
+    margin-top: 10px;
+}
+.lap-ctrl{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    /* border: 1px solid black; */
+}
